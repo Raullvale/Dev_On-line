@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #fff0f6, #fde2e4);
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #c2255c, #f06595);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 2.8em;
+}
+
+header p {
+    margin: 15px 0 30px;
+    font-size: 1.2em;
+}
+
+/* BOTÃO */
+.btn-whats {
+    display: inline-block;
+    padding: 15px 40px;
+    background: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.btn-whats:hover {
+    background: #1ebe5d;
+    transform: scale(1.05);
+}
+
+/* SECTIONS */
+section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #c2255c;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 22px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #c2255c;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card span {
+    display: block;
+    margin-top: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #f06595;
+}
+
+/* DESTAQUE */
+.card.destaque {
+    border: 3px solid #f06595;
+    background: linear-gradient(135deg, #fff, #ffe3ed);
+}
+
+/* HORÁRIOS */
+.horarios ul {
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.horarios li {
+    margin: 8px 0;
+}
+
+/* FOOTER */
+footer {
+    background: #fff;
+    padding: 25px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
